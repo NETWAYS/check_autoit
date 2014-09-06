@@ -1,0 +1,34 @@
+name: check_autoit
+description: "file:///README.md"
+url: "https://www.netways.org/projects/plugins"
+tags: ~
+vendor: NETWAYS
+target: Operating System
+type: Plugin
+license: gplv2
+releases: 
+  - 
+    name: 1.0
+    description: "1.0 Release"
+    files: 
+      - 
+        name: check_autoit.bat
+        url: "file:///check_autoit.bat"
+        description: none
+        checksum: fc4e42505b5b11d9f6b4dcdba341a7af
+      - 
+        name: wikisearch.au3
+        url: "file:///wikisearch.au3"
+        description: none
+        checksum: 1c01ffc8ad86c8acdbdaccccf4e35c94
+      - 
+        name: wikisearch.exe
+        url: "file:///wikisearch.exe"
+        description: none
+        checksum: f8a4ef2108cd8cbb9d4f0f6b3cb88e6c
+      - 
+        name: wikisearch.ini
+        url: "file:///wikisearch.ini"
+        description: none
+        checksum: 3ec4b845be71f89199ddaa9f9ded817a
+
