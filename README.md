@@ -13,6 +13,7 @@ check_autoit
 #### Windows
 
 NSClient++
+
 - copy the file check_autoit.bat to your windows system (eg.: %Programmpath%\nsclient++\scripts)
 - edit the NSC.ini File and insert follow commandline
 - enable script section
@@ -24,6 +25,7 @@ check_autoit=scripts\check_autoit.bat $ARG1$ $ARG2$ $ARG3$ $ARG4$ $ARG5$ $ARG6$ 
 - copy the file "wikisearch.exe" and "wikisearch.ini" on your windows system (eg.: c:\test)
 
 Icinga 2
+
 - copy the file check_autoit.ps1 to any directory Icinga 2 has access too
 - continue with Icinga 2 part
 
@@ -134,4 +136,5 @@ autoit_service_apply.conf
     }
     
 Manual test
+
     PS C:\test>.\check_autoit.ps1 -Executable "C:\test\wikisearch.exe" -ConfigFile "C:\test\wikisearch.ini" -WarningValue 5 -CriticalValue 9 -Arguments 'nrpe', 'nsclient'
